@@ -1,0 +1,256 @@
+{
+	"file": "js/ERC1155.js",
+    "name": "ERC1155",
+    "abi": [
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "account",
+                    "type": "address"
+                },
+                {
+                    "name": "id",
+                    "type": "address"
+                }
+            ],
+            "name": "balanceOf",
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [],
+            "name": "name",
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [],
+            "name": "symbol",
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "tokenId",
+                    "type": "address"
+                }
+            ],
+            "name": "uri",
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "tokenId",
+                    "type": "address"
+                }
+            ],
+            "name": "totalSupply",
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "to",
+                    "type": "address"
+                },
+                {
+                    "name": "ids",
+                    "type": "address[]"
+                },
+                {
+                    "name": "amounts",
+                    "type": "uint[]"
+                },
+                {
+                    "name": "data",
+                    "type": "string"
+                }
+            ],
+            "name": "mintBatch",
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "from",
+                    "type": "address"
+                },
+                {
+                    "name": "to",
+                    "type": "address"
+                },
+                {
+                    "name": "ids",
+                    "type": "address[]"
+                },
+                {
+                    "name": "amounts",
+                    "type": "uint[]"
+                },
+                {
+                    "name": "data",
+                    "type": "string"
+                }
+            ],
+            "name": "safeBatchTransferFrom",
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "accounts",
+                    "type": "address[]"
+                },
+                {
+                    "name": "ids",
+                    "type": "address[]"
+                }
+            ],
+            "name": "balanceOfBatch",
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "to",
+                    "type": "address"
+                },
+                {
+                    "name": "id",
+                    "type": "address"
+                },
+                {
+                    "name": "amount",
+                    "type": "uint"
+                },
+                {
+                    "name": "data",
+                    "type": "string"
+                }
+            ],
+            "name": "mint",
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "operator",
+                    "type": "address"
+                },
+                {
+                    "name": "isApproved",
+                    "type": "bool"
+                }
+            ],
+            "name": "setApprovalForAll",
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "uri",
+                    "type": "string"
+                }
+            ],
+            "name": "setURI",
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "account",
+                    "type": "address"
+                },
+                {
+                    "name": "operator",
+                    "type": "address"
+                }
+            ],
+            "name": "isApprovedForAll",
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "from",
+                    "type": "address"
+                },
+                {
+                    "name": "to",
+                    "type": "address"
+                },
+                {
+                    "name": "id",
+                    "type": "address"
+                },
+                {
+                    "name": "amount",
+                    "type": "uint"
+                },
+                {
+                    "name": "data",
+                    "type": "string"
+                }
+            ],
+            "name": "safeTransferFrom",
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "inputs": [
+                {
+                    "name": "name",
+                    "type": "string"
+                },
+                {
+                    "name": "symbol",
+                    "type": "string"
+                },
+                {
+                    "name": "uri",
+                    "type": "string"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "constructor"
+        }
+    ]
+}
