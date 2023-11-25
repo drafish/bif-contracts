@@ -1,0 +1,88 @@
+[
+    {
+        "constant": false,
+        "inputs": [
+            {
+                "name": "num",
+                "type": "uint256"
+            }
+        ],
+        "name": "store1",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "constant": false,
+        "inputs": [
+            {
+                "name": "num",
+                "type": "uint256"
+            }
+        ],
+        "name": "store",
+        "outputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "constant": true,
+        "inputs": [
+            {
+                "name": "num",
+                "type": "uint256"
+            }
+        ],
+        "name": "retrieve",
+        "outputs": [
+            {
+                "name": "",
+                "type": "uint256"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "name": "num",
+                "type": "uint256"
+            },
+            {
+                "name": "num1",
+                "type": "uint256"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "constructor"
+    },
+    {
+        "anonymous": false,
+        "inputs": [
+            {
+                "indexed": false,
+                "name": "num",
+                "type": "uint256"
+            }
+        ],
+        "name": "Log",
+        "type": "event"
+    },
+    {
+        "anonymous": false,
+        "inputs": [
+            {
+                "indexed": false,
+                "name": "num",
+                "type": "uint256"
+            }
+        ],
+        "name": "Log1",
+        "type": "event"
+    }
+]
