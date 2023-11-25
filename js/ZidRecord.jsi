@@ -1,0 +1,102 @@
+{
+    "file": "js/ZidRecord.js",
+    "name": "ZidRecord",
+    "abi": [
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "zid",
+                    "type": "string"
+                }
+            ],
+            "name": "queryZidRecord",
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "caller_address",
+                    "type": "address"
+                },
+                {
+                    "name": "addFlag",
+                    "type": "bool"
+                }
+            ],
+            "name": "setAuditWhitelist",
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "zid",
+                    "type": "string"
+                },
+                {
+                    "name": "value",
+                    "type": "json[]"
+                }
+            ],
+            "name": "createZidData",
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "zid",
+                    "type": "string"
+                },
+                {
+                    "name": "opFlag",
+                    "type": "string"
+                },
+                {
+                    "name": "value",
+                    "type": "json[]"
+                }
+            ],
+            "name": "modifyZidData",
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "zid",
+                    "type": "string"
+                },
+                {
+                    "name": "opFlag",
+                    "type": "string"
+                }
+            ],
+            "name": "removeZidData",
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "inputs": [
+                {
+                    "name": "type",
+                    "type": "string"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "constructor"
+        }
+    ]
+}
