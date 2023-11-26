@@ -126,7 +126,7 @@ did:bid:efHSbC7AedduvEG5hbtUio4mZmzwGhse,false
 "{'method':'setApprovalForAll','params':{'operator':'did:bid:efHSbC7AedduvEG5hbtUio4mZmzwGhse','isApproved':false}}"
 ```
 
-### setApprovalForAll
+### name
 **with abi**
 ```
 
