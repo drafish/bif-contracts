@@ -1,139 +1,28 @@
 {
-	"file": "js/ERC721.js",
-    "name": "ERC721",
+	"file": "contracts/ERC1155/ERC1155.js",
+    "name": "ERC1155",
     "abi": [
         {
             "constant": true,
-            "inputs": [],
-            "name": "name",
-            "payable": false,
-            "stateMutability": "view",
-            "type": "function"
-        },
-        {
-            "constant": true,
             "inputs": [
                 {
-                    "name": "tokenId",
-                    "type": "address"
-                }
-            ],
-            "name": "getApproved",
-            "payable": false,
-            "stateMutability": "view",
-            "type": "function"
-        },
-        {
-            "constant": false,
-            "inputs": [
-                {
-                    "name": "to",
+                    "name": "account",
                     "type": "address"
                 },
                 {
-                    "name": "tokenId",
-                    "type": "address"
-                }
-            ],
-            "name": "approve",
-            "payable": false,
-            "stateMutability": "nonpayable",
-            "type": "function"
-        },
-        {
-            "constant": false,
-            "inputs": [
-                {
-                    "name": "from",
-                    "type": "address"
-                },
-                {
-                    "name": "to",
-                    "type": "address"
-                },
-                {
-                    "name": "tokenId",
-                    "type": "address"
-                }
-            ],
-            "name": "transferFrom",
-            "payable": false,
-            "stateMutability": "nonpayable",
-            "type": "function"
-        },
-        {
-            "constant": false,
-            "inputs": [
-                {
-                    "name": "to",
-                    "type": "address"
-                },
-                {
-                    "name": "tokenId",
-                    "type": "address"
-                }
-            ],
-            "name": "mint",
-            "payable": false,
-            "stateMutability": "nonpayable",
-            "type": "function"
-        },
-        {
-            "constant": false,
-            "inputs": [
-                {
-                    "name": "from",
-                    "type": "address"
-                },
-                {
-                    "name": "to",
-                    "type": "address"
-                },
-                {
-                    "name": "tokenId",
-                    "type": "address"
-                }
-            ],
-            "name": "safeTransferFrom",
-            "payable": false,
-            "stateMutability": "nonpayable",
-            "type": "function"
-        },
-        {
-            "constant": true,
-            "inputs": [
-                {
-                    "name": "tokenId",
-                    "type": "address"
-                }
-            ],
-            "name": "ownerOf",
-            "payable": false,
-            "stateMutability": "view",
-            "type": "function"
-        },
-        {
-            "constant": true,
-            "inputs": [
-                {
-                    "name": "tokenId",
-                    "type": "address"
-                }
-            ],
-            "name": "tokenURI",
-            "payable": false,
-            "stateMutability": "view",
-            "type": "function"
-        },
-        {
-            "constant": true,
-            "inputs": [
-                {
-                    "name": "owner",
+                    "name": "id",
                     "type": "address"
                 }
             ],
             "name": "balanceOf",
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [],
+            "name": "name",
             "payable": false,
             "stateMutability": "view",
             "type": "function"
@@ -148,40 +37,124 @@
         },
         {
             "constant": true,
-            "inputs": [],
+            "inputs": [
+                {
+                    "name": "tokenId",
+                    "type": "address"
+                }
+            ],
+            "name": "uri",
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "tokenId",
+                    "type": "address"
+                }
+            ],
             "name": "totalSupply",
             "payable": false,
             "stateMutability": "view",
             "type": "function"
         },
         {
-            "constant": true,
+            "constant": false,
             "inputs": [
                 {
-                    "name": "index",
-                    "type": "uint"
+                    "name": "to",
+                    "type": "address"
+                },
+                {
+                    "name": "ids",
+                    "type": "address[]"
+                },
+                {
+                    "name": "amounts",
+                    "type": "uint[]"
+                },
+                {
+                    "name": "data",
+                    "type": "string"
                 }
             ],
-            "name": "tokenByIndex",
+            "name": "mintBatch",
             "payable": false,
-            "stateMutability": "view",
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "from",
+                    "type": "address"
+                },
+                {
+                    "name": "to",
+                    "type": "address"
+                },
+                {
+                    "name": "ids",
+                    "type": "address[]"
+                },
+                {
+                    "name": "amounts",
+                    "type": "uint[]"
+                },
+                {
+                    "name": "data",
+                    "type": "string"
+                }
+            ],
+            "name": "safeBatchTransferFrom",
+            "payable": false,
+            "stateMutability": "nonpayable",
             "type": "function"
         },
         {
             "constant": true,
             "inputs": [
                 {
-                    "name": "owner",
+                    "name": "accounts",
+                    "type": "address[]"
+                },
+                {
+                    "name": "ids",
+                    "type": "address[]"
+                }
+            ],
+            "name": "balanceOfBatch",
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "to",
                     "type": "address"
                 },
                 {
-                    "name": "index",
+                    "name": "id",
+                    "type": "address"
+                },
+                {
+                    "name": "amount",
                     "type": "uint"
+                },
+                {
+                    "name": "data",
+                    "type": "string"
                 }
             ],
-            "name": "tokenOfOwnerByIndex",
+            "name": "mint",
             "payable": false,
-            "stateMutability": "view",
+            "stateMutability": "nonpayable",
             "type": "function"
         },
         {
@@ -205,24 +178,11 @@
             "constant": false,
             "inputs": [
                 {
-                    "name": "from",
-                    "type": "address"
-                },
-                {
-                    "name": "to",
-                    "type": "address"
-                },
-                {
-                    "name": "tokenId",
-                    "type": "address"
-                },
-                {
-                    "name": "data",
+                    "name": "uri",
                     "type": "string"
                 }
             ],
-            "name": "safeTransferFrom",
-            "outputs": [],
+            "name": "setURI",
             "payable": false,
             "stateMutability": "nonpayable",
             "type": "function"
@@ -231,7 +191,7 @@
             "constant": true,
             "inputs": [
                 {
-                    "name": "owner",
+                    "name": "account",
                     "type": "address"
                 },
                 {
@@ -245,6 +205,35 @@
             "type": "function"
         },
         {
+            "constant": false,
+            "inputs": [
+                {
+                    "name": "from",
+                    "type": "address"
+                },
+                {
+                    "name": "to",
+                    "type": "address"
+                },
+                {
+                    "name": "id",
+                    "type": "address"
+                },
+                {
+                    "name": "amount",
+                    "type": "uint"
+                },
+                {
+                    "name": "data",
+                    "type": "string"
+                }
+            ],
+            "name": "safeTransferFrom",
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        },
+        {
             "inputs": [
                 {
                     "name": "name",
@@ -255,7 +244,7 @@
                     "type": "string"
                 },
                 {
-                    "name": "tokenUri",
+                    "name": "uri",
                     "type": "string"
                 }
             ],
