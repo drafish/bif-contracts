@@ -69,7 +69,7 @@ did:bid:efHqeHDdu6CxteYXxsPtFKdPbqTJd85i,did:bid:efdvn6cS5TZgiM5ffVN9HQh3y72raYt
 ### mint
 **with abi**
 ```
-'did:bid:ef21SesYy12yP9Pq24KQun3Xkk684gDuk','did:bid:efvGbC617rnwabdxL4JxjnqGzqU97hhm'
+did:bid:ef21SesYy12yP9Pq24KQun3Xkk684gDuk,did:bid:efvGbC617rnwabdxL4JxjnqGzqU97hhm
 ```
 **without abi**
 ```
@@ -79,7 +79,7 @@ did:bid:efHqeHDdu6CxteYXxsPtFKdPbqTJd85i,did:bid:efdvn6cS5TZgiM5ffVN9HQh3y72raYt
 ### transferFrom
 **with abi**
 ```
-'did:bid:efHqeHDdu6CxteYXxsPtFKdPbqTJd85i','did:bid:efDr1MFqET4kP2CnNJmYhXGdR6LTJmAt','did:bid:efFasH3xkvS3fGsn72SqxZkrmreiuNzy'
+did:bid:efHqeHDdu6CxteYXxsPtFKdPbqTJd85i,did:bid:efDr1MFqET4kP2CnNJmYhXGdR6LTJmAt,did:bid:efFasH3xkvS3fGsn72SqxZkrmreiuNzy
 ```
 **without abi**
 ```
@@ -89,7 +89,7 @@ did:bid:efHqeHDdu6CxteYXxsPtFKdPbqTJd85i,did:bid:efdvn6cS5TZgiM5ffVN9HQh3y72raYt
 ### safeTransferFrom (with data)
 **with abi**
 ```
-'did:bid:efHqeHDdu6CxteYXxsPtFKdPbqTJd85i','did:bid:ef296hUUmhM8fgH9Gg7dyY3MH7P1tkpJU','did:bid:efFasH3xkvS3fGsn72SqxZkrmreiuNzw','safe transfer with data'
+did:bid:efHqeHDdu6CxteYXxsPtFKdPbqTJd85i,did:bid:ef296hUUmhM8fgH9Gg7dyY3MH7P1tkpJU,did:bid:efFasH3xkvS3fGsn72SqxZkrmreiuNzw,'safe transfer with data'
 ```
 **without abi**
 ```
@@ -99,7 +99,7 @@ did:bid:efHqeHDdu6CxteYXxsPtFKdPbqTJd85i,did:bid:efdvn6cS5TZgiM5ffVN9HQh3y72raYt
 ### safeTransferFrom
 **with abi**
 ```
-'did:bid:efHqeHDdu6CxteYXxsPtFKdPbqTJd85i','did:bid:ef296hUUmhM8fgH9Gg7dyY3MH7P1tkpJU','did:bid:efFasH3xkvS3fGsn72SqxZkrmreiuNzk'
+did:bid:efHqeHDdu6CxteYXxsPtFKdPbqTJd85i,did:bid:ef296hUUmhM8fgH9Gg7dyY3MH7P1tkpJU,did:bid:efFasH3xkvS3fGsn72SqxZkrmreiuNzk
 ```
 **without abi**
 ```
@@ -109,7 +109,7 @@ did:bid:efHqeHDdu6CxteYXxsPtFKdPbqTJd85i,did:bid:efdvn6cS5TZgiM5ffVN9HQh3y72raYt
 ### approve
 **with abi**
 ```
-'did:bid:efDr1MFqET4kP2CnNJmYhXGdR6LTJmAt','did:bid:ef25TXpxdvBQBngVABEhd64MJHhFsg6bu'
+did:bid:efDr1MFqET4kP2CnNJmYhXGdR6LTJmAt,did:bid:ef25TXpxdvBQBngVABEhd64MJHhFsg6bu
 ```
 **without abi**
 ```
@@ -119,7 +119,7 @@ did:bid:efHqeHDdu6CxteYXxsPtFKdPbqTJd85i,did:bid:efdvn6cS5TZgiM5ffVN9HQh3y72raYt
 ### setApprovalForAll
 **with abi**
 ```
-'did:bid:efHSbC7AedduvEG5hbtUio4mZmzwGhse',false
+did:bid:efHSbC7AedduvEG5hbtUio4mZmzwGhse,false
 ```
 **without abi**
 ```
@@ -139,7 +139,7 @@ did:bid:efHqeHDdu6CxteYXxsPtFKdPbqTJd85i,did:bid:efdvn6cS5TZgiM5ffVN9HQh3y72raYt
 ### ownerOf
 **with abi**
 ```
-'did:bid:efvGbC617rnwabdxL4JxjnqGzqU97xxx'
+did:bid:efvGbC617rnwabdxL4JxjnqGzqU97xxx
 ```
 **without abi**
 ```
@@ -149,7 +149,7 @@ did:bid:efHqeHDdu6CxteYXxsPtFKdPbqTJd85i,did:bid:efdvn6cS5TZgiM5ffVN9HQh3y72raYt
 ### balanceOf
 **with abi**
 ```
-'did:bid:ef21SesYy12yP9Pq24KQun3Xkk684gDuk'
+did:bid:ef21SesYy12yP9Pq24KQun3Xkk684gDuk
 ```
 **without abi**
 ```
@@ -169,7 +169,7 @@ did:bid:efvGbC617rnwabdxL4JxjnqGzqU97hhm
 ### isApprovedForAll
 **with abi**
 ```
-'did:bid:efHSbC7AedduvEG5hbtUio4mZmzwGhse','did:bid:efYoXTEiQrKTUdoLiLsBDGneGtFMJRqM'
+did:bid:efHSbC7AedduvEG5hbtUio4mZmzwGhse,did:bid:efYoXTEiQrKTUdoLiLsBDGneGtFMJRqM
 ```
 **without abi**
 ```
@@ -189,7 +189,7 @@ did:bid:efvGbC617rnwabdxL4JxjnqGzqU97hhm
 ### tokenURI
 **with abi**
 ```
-'did:bid:efvGbC617rnwabdxL4JxjnqGzqU97hhm'
+did:bid:efvGbC617rnwabdxL4JxjnqGzqU97hhm
 ```
 **without abi**
 ```
@@ -219,7 +219,7 @@ did:bid:efvGbC617rnwabdxL4JxjnqGzqU97hhm
 ### tokenOfOwnerByIndex
 **with abi**
 ```
-'did:bid:efDr1MFqET4kP2CnNJmYhXGdR6LTJmAt',0
+did:bid:efDr1MFqET4kP2CnNJmYhXGdR6LTJmAt,0
 ```
 **without abi**
 ```
