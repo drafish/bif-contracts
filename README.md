@@ -1,1 +1,1 @@
-# bif-contracts
+## 星火链网合约示例

@@ -2,26 +2,12 @@
 ### init -- constructor
 **with abi**
 ```
-// GHR合约部署
 ghr_zid_init
-
-// SHR合约部署
-shr_zid_init
-
-// LHS合约部署
-lhs_zid_init
 ```
 
 **without abi**
 ```
-// GHR合约部署
 "{'type':'ghr_zid_init'}"
-
-// SHR合约部署
-"{'type':'shr_zid_init'}"
-
-// LHS合约部署
-"{'type':'lhs_zid_init'}"
 ```
 
 ### setAuditWhitelist
