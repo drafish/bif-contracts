@@ -46,6 +46,17 @@ did:bid:efuEAGFPJMsojwPGKzjD8vZX1wbaUrVV,true
 "{'method':'createZidData','params':{'zid':'88.1000','opFlag':'0','value':[{'index':'1','type':'contract_address','data':{'format':'string','value':'did:bid:efuEAGFPJMsojwPGKzjkkk89jky'},'ttl':'86400','ttlType':'0','timestamp':'0','references':[],'adminRead':'1','adminWrite':'1','publicRead':'1','publicWrite':'0'}]}}"
 ```
 
+### modifyZidData
+**with abi**
+```
+88.1000,2,"[{'index':'1','type':'contract_address','data':{'format':'string','value':'did:bid:efuEAGFPJMsojwPGKzjkkk89jky'},'ttl':'86400','ttlType':'0','timestamp':'0','references':[],'adminRead':'1','adminWrite':'1','publicRead':'1','publicWrite':'0'}]"
+```
+
+**without abi**
+```
+"{'method':'modifyZidData','params':{'zid':'88.1000','opFlag':'2','value':[{'index':'1','type':'contract_address','data':{'format':'string','value':'did:bid:efuEAGFPJMsojwPGKzjkkk89jky'},'ttl':'86400','ttlType':'0','timestamp':'0','references':[],'adminRead':'1','adminWrite':'1','publicRead':'1','publicWrite':'0'}]}}"
+```
+
 ### removeZidData
 **with abi**
 ```
