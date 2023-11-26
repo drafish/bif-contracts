@@ -159,7 +159,7 @@
             "inputs": [
                 {
                     "name": "index",
-                    "type": "uint"
+                    "type": "number"
                 }
             ],
             "name": "tokenByIndex",
@@ -176,7 +176,7 @@
                 },
                 {
                     "name": "index",
-                    "type": "uint"
+                    "type": "number"
                 }
             ],
             "name": "tokenOfOwnerByIndex",

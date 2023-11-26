@@ -74,7 +74,7 @@
                 },
                 {
                     "name": "amounts",
-                    "type": "uint[]"
+                    "type": "number[]"
                 },
                 {
                     "name": "data",
@@ -103,7 +103,7 @@
                 },
                 {
                     "name": "amounts",
-                    "type": "uint[]"
+                    "type": "number[]"
                 },
                 {
                     "name": "data",
@@ -145,7 +145,7 @@
                 },
                 {
                     "name": "amount",
-                    "type": "uint"
+                    "type": "number"
                 },
                 {
                     "name": "data",
@@ -221,7 +221,7 @@
                 },
                 {
                     "name": "amount",
-                    "type": "uint"
+                    "type": "number"
                 },
                 {
                     "name": "data",

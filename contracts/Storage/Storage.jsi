@@ -7,7 +7,7 @@
             "inputs": [
                 {
                     "name": "num",
-                    "type": "uint256"
+                    "type": "number"
                 }
             ],
             "name": "store1",
@@ -21,7 +21,7 @@
             "inputs": [
                 {
                     "name": "num",
-                    "type": "uint256"
+                    "type": "number"
                 }
             ],
             "name": "store",
@@ -35,14 +35,14 @@
             "inputs": [
                 {
                     "name": "num",
-                    "type": "uint256"
+                    "type": "number"
                 }
             ],
             "name": "retrieve",
             "outputs": [
                 {
                     "name": "",
-                    "type": "uint256"
+                    "type": "number"
                 }
             ],
             "payable": false,
@@ -53,11 +53,11 @@
             "inputs": [
                 {
                     "name": "num",
-                    "type": "uint256"
+                    "type": "number"
                 },
                 {
                     "name": "num1",
-                    "type": "uint256"
+                    "type": "number"
                 }
             ],
             "payable": false,
@@ -70,7 +70,7 @@
                 {
                     "indexed": false,
                     "name": "num",
-                    "type": "uint256"
+                    "type": "number"
                 }
             ],
             "name": "Log",
@@ -82,7 +82,7 @@
                 {
                     "indexed": false,
                     "name": "num",
-                    "type": "uint256"
+                    "type": "number"
                 }
             ],
             "name": "Log1",
