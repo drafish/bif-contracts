@@ -1,19 +1,5 @@
 [
     {
-        "constant": false,
-        "inputs": [
-            {
-                "name": "uri_",
-                "type": "string"
-            }
-        ],
-        "name": "TokenERC1155",
-        "outputs": [],
-        "payable": false,
-        "stateMutability": "nonpayable",
-        "type": "function"
-    },
-    {
         "constant": true,
         "inputs": [
             {

@@ -28,14 +28,6 @@ contract ERC1155 {
         _;
     }
 
-    /**
-     * 初始化构造
-     */
-    function TokenERC1155(string memory uri_) public {
-        fundation = msg.sender;    
-        _setURI(uri_);                         
-    }
-    
     constructor(string memory uri_) {
         fundation = msg.sender;    
         _setURI(uri_);
