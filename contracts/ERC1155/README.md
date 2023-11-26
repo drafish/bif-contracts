@@ -135,7 +135,7 @@
 
 **without abi**
 ```
-{'method':'balanceOfBatch','params':{'accounts':['did:bid:ef21SesYy12yP9Pq24KQun3Xkk684gDuk','did:bid:ef21SesYy12yP9Pq24KQun3Xkk684gDuk'],'ids':['did:bid:efTMqg6qLb1pT34NdLjCXKwAxnCd5ELr','did:bid:zf2AHtw8YGgKPCyye2GMu56Wtjngvfdbg']}}
+"{'method':'balanceOfBatch','params':{'accounts':['did:bid:ef21SesYy12yP9Pq24KQun3Xkk684gDuk','did:bid:ef21SesYy12yP9Pq24KQun3Xkk684gDuk'],'ids':['did:bid:efTMqg6qLb1pT34NdLjCXKwAxnCd5ELr','did:bid:zf2AHtw8YGgKPCyye2GMu56Wtjngvfdbg']}}"
 ```
 
 ### isApprovedForAll
@@ -146,7 +146,7 @@
 
 **without abi**
 ```
-{'method':'isApprovedForAll','params':{'account':'did:bid:efHqeHDdu6CxteYXxsPtFKdPbqTJd85i','operator':'did:bid:efHSbC7AedduvEG5hbtUio4mZmzwGhse'}}
+"{'method':'isApprovedForAll','params':{'account':'did:bid:efHqeHDdu6CxteYXxsPtFKdPbqTJd85i','operator':'did:bid:efHSbC7AedduvEG5hbtUio4mZmzwGhse'}}"
 ```
 
 ### name
@@ -179,7 +179,7 @@
 
 **without abi**
 ```
-{'method':'uri','params':{'tokenId':'did:bid:zf2AHtw8YGgKPCyye2GMu56Wtjngvfdbg'}}
+"{'method':'uri','params':{'tokenId':'did:bid:zf2AHtw8YGgKPCyye2GMu56Wtjngvfdbg'}}"
 ```
 
 ### totalSupply
@@ -190,5 +190,5 @@
 
 **without abi**
 ```
-{'method':'totalSupply','params':{'tokenId':'did:bid:efzZLfWLnz1Apfxp2vZe1z34GuTtriPa'}}
+"{'method':'totalSupply','params':{'tokenId':'did:bid:efzZLfWLnz1Apfxp2vZe1z34GuTtriPa'}}"
 ```
