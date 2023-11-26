@@ -38,7 +38,7 @@ did:bid:efuEAGFPJMsojwPGKzjD8vZX1wbaUrVV,true
 ### createZidData
 **with abi**
 ```
-88.1000,0,[{'index':'1','type':'contract_address','data':{'format':'string','value':'did:bid:efuEAGFPJMsojwPGKzjkkk89jky'},'ttl':'86400','ttlType':'0','timestamp':'0','references':[],'adminRead':'1','adminWrite':'1','publicRead':'1','publicWrite':'0'}]
+88.1000,0,"[{'index':'1','type':'contract_address','data':{'format':'string','value':'did:bid:efuEAGFPJMsojwPGKzjkkk89jky'},'ttl':'86400','ttlType':'0','timestamp':'0','references':[],'adminRead':'1','adminWrite':'1','publicRead':'1','publicWrite':'0'}]"
 ```
 
 **without abi**
