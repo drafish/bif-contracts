@@ -6,6 +6,10 @@
             "constant": true,
             "inputs": [
                 {
+                    "name": "type",
+                    "type": "string"
+                },
+                {
                     "name": "zid",
                     "type": "string"
                 }
