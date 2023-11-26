@@ -2,7 +2,7 @@
 
 ### XHERC721(string,string) -- constructor
 ```
-'solidity Token','https://gateway.pinata.cloud/ipfs/QmeSjSinHpPnmXmspMjwiXyN6zS4E9zccariGR3jxcaWtq/6476'
+solidity Token,https://gateway.pinata.cloud/ipfs/QmeSjSinHpPnmXmspMjwiXyN6zS4E9zccariGR3jxcaWtq/6476
 ```
 
 ### mint(address,uint256)
@@ -59,7 +59,7 @@ did:bid:efHqeHDdu6CxteYXxsPtFKdPbqTJd85i,did:bid:efdvn6cS5TZgiM5ffVN9HQh3y72raYt
 ### init -- constructor
 **with abi**
 ```
-'xinghuo space nft','symbol','https://gateway.pinata.cloud/ipfs/QmeSjSinHpPnmXmspMjwiXyN6zS4E9zccariGR3jxcaWtq/6476'
+xinghuo space nft,symbol,https://gateway.pinata.cloud/ipfs/QmeSjSinHpPnmXmspMjwiXyN6zS4E9zccariGR3jxcaWtq/6476
 ```
 **without abi**
 ```

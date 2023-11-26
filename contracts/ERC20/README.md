@@ -2,7 +2,7 @@
 
 ### TokenERC20(uint256,string,string) -- constructor
 ```
-1,'solidity Token','https://gateway.pinata.cloud/ipfs/QmeSjSinHpPnmXmspMjwiXyN6zS4E9zccariGR3jxcaWtq/6476'
+1,solidity Token,https://gateway.pinata.cloud/ipfs/QmeSjSinHpPnmXmspMjwiXyN6zS4E9zccariGR3jxcaWtq/6476
 ```
 
 ### transfer(address,uint256)
