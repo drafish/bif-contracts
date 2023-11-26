@@ -6,22 +6,22 @@
 
 ### mint(address,uint256,uint256,bytes)
 ```
-did:bid:efHqeHDdu6CxteYXxsPtFKdPbqTJd85i,1,10,'DNA 1155'
+did:bid:efHqeHDdu6CxteYXxsPtFKdPbqTJd85i,1,10,'0x444e412031313535'
 ```
 
 ### mintBatch(address,uint256[],uint256[],bytes)
 ```
-did:bid:efHqeHDdu6CxteYXxsPtFKdPbqTJd85i,[2,3],[10,100],'DNA 1155'
+did:bid:efHqeHDdu6CxteYXxsPtFKdPbqTJd85i,[2,3],[10,100],'0x444e412031313535'
 ```
 
 ### safeTransferFrom(address,address,uint256,uint256,bytes)
 ```
-did:bid:efHqeHDdu6CxteYXxsPtFKdPbqTJd85i,did:bid:efdvn6cS5TZgiM5ffVN9HQh3y72raYtm,1,1,'safe transfer from'
+did:bid:efHqeHDdu6CxteYXxsPtFKdPbqTJd85i,did:bid:efdvn6cS5TZgiM5ffVN9HQh3y72raYtm,1,1,'0x73616665207472616e736665722066726f6d'
 ```
 
 ### safeBatchTransferFrom(address,address,uint256[],uint256[],bytes)
 ```
-did:bid:efHqeHDdu6CxteYXxsPtFKdPbqTJd85i,did:bid:efdvn6cS5TZgiM5ffVN9HQh3y72raYtm,[2,3],[1,1],'safe transfer from'
+did:bid:efHqeHDdu6CxteYXxsPtFKdPbqTJd85i,did:bid:efdvn6cS5TZgiM5ffVN9HQh3y72raYtm,[2,3],[1,1],'0x73616665207472616e736665722066726f6d'
 ```
 
 ### setApprovalForAll(address,bool)

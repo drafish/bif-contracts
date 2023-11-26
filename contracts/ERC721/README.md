@@ -17,7 +17,7 @@ did:bid:efHqeHDdu6CxteYXxsPtFKdPbqTJd85i,did:bid:efyhF492WhCEnXqSCjgQV6yUA2uPeAY
 
 ### safeTransferFrom(address,address,uint256,bytes)
 ```
-did:bid:efHqeHDdu6CxteYXxsPtFKdPbqTJd85i,did:bid:efyhF492WhCEnXqSCjgQV6yUA2uPeAY3,3,'safe transfer from'
+did:bid:efHqeHDdu6CxteYXxsPtFKdPbqTJd85i,did:bid:efyhF492WhCEnXqSCjgQV6yUA2uPeAY3,3,'0x73616665207472616e736665722066726f6d'
 ```
 
 ### safeTransferFrom(address,address,uint256)
