@@ -2,64 +2,64 @@
 
 ### XHERC721(string,string) -- constructor
 ```
-"'solidity Token','https://gateway.pinata.cloud/ipfs/QmeSjSinHpPnmXmspMjwiXyN6zS4E9zccariGR3jxcaWtq/6476'"
+'solidity Token','https://gateway.pinata.cloud/ipfs/QmeSjSinHpPnmXmspMjwiXyN6zS4E9zccariGR3jxcaWtq/6476'
 ```
 
 ### mint(address,uint256)
 ```
-"did:bid:efHqeHDdu6CxteYXxsPtFKdPbqTJd85i,2"
+did:bid:efHqeHDdu6CxteYXxsPtFKdPbqTJd85i,2
 ```
 
 ### transferFrom(address,address,uint256)
 ```
-"did:bid:efHqeHDdu6CxteYXxsPtFKdPbqTJd85i,did:bid:efyhF492WhCEnXqSCjgQV6yUA2uPeAY3,2"
+did:bid:efHqeHDdu6CxteYXxsPtFKdPbqTJd85i,did:bid:efyhF492WhCEnXqSCjgQV6yUA2uPeAY3,2
 ```
 
 ### safeTransferFrom(address,address,uint256,bytes)
 ```
-"did:bid:efHqeHDdu6CxteYXxsPtFKdPbqTJd85i,did:bid:efyhF492WhCEnXqSCjgQV6yUA2uPeAY3,3,'safe transfer from'"
+did:bid:efHqeHDdu6CxteYXxsPtFKdPbqTJd85i,did:bid:efyhF492WhCEnXqSCjgQV6yUA2uPeAY3,3,'safe transfer from'
 ```
 
 ### safeTransferFrom(address,address,uint256)
 ```
-"did:bid:efHqeHDdu6CxteYXxsPtFKdPbqTJd85i,did:bid:efyhF492WhCEnXqSCjgQV6yUA2uPeAY3,4"
+did:bid:efHqeHDdu6CxteYXxsPtFKdPbqTJd85i,did:bid:efyhF492WhCEnXqSCjgQV6yUA2uPeAY3,4
 ```
 
 ### approve(address,uint256)
 ```
-"did:bid:efdvn6cS5TZgiM5ffVN9HQh3y72raYtm,5"
+did:bid:efdvn6cS5TZgiM5ffVN9HQh3y72raYtm,5
 ```
 
 ### setApprovalForAll(address,bool)
 ```
-"did:bid:efdvn6cS5TZgiM5ffVN9HQh3y72raYtm,1"
+did:bid:efdvn6cS5TZgiM5ffVN9HQh3y72raYtm,1
 ```
 
 ### ownerOf(uint256)
 ```
-"1"
+1
 ```
 
 ### balanceOf(address)
 ```
-"did:bid:efHqeHDdu6CxteYXxsPtFKdPbqTJd85i"
+did:bid:efHqeHDdu6CxteYXxsPtFKdPbqTJd85i
 ```
 
 ### getApproved(uint256)
 ```
-"5"
+5
 ```
 
 ### isApprovedForAll(address,address)
 ```
-"did:bid:efHqeHDdu6CxteYXxsPtFKdPbqTJd85i,did:bid:efdvn6cS5TZgiM5ffVN9HQh3y72raYtm"
+did:bid:efHqeHDdu6CxteYXxsPtFKdPbqTJd85i,did:bid:efdvn6cS5TZgiM5ffVN9HQh3y72raYtm
 ```
 
 ## JS
 ### init -- constructor
 **with abi**
 ```
-"'xinghuo space nft','symbol','https://gateway.pinata.cloud/ipfs/QmeSjSinHpPnmXmspMjwiXyN6zS4E9zccariGR3jxcaWtq/6476'"
+'xinghuo space nft','symbol','https://gateway.pinata.cloud/ipfs/QmeSjSinHpPnmXmspMjwiXyN6zS4E9zccariGR3jxcaWtq/6476'
 ```
 **without abi**
 ```
@@ -69,7 +69,7 @@
 ### mint
 **with abi**
 ```
-"'to','did:bid:ef21SesYy12yP9Pq24KQun3Xkk684gDuk','did:bid:efvGbC617rnwabdxL4JxjnqGzqU97hhm'"
+'did:bid:ef21SesYy12yP9Pq24KQun3Xkk684gDuk','did:bid:efvGbC617rnwabdxL4JxjnqGzqU97hhm'
 ```
 **without abi**
 ```
@@ -79,7 +79,7 @@
 ### transferFrom
 **with abi**
 ```
-"'did:bid:efHqeHDdu6CxteYXxsPtFKdPbqTJd85i','did:bid:efDr1MFqET4kP2CnNJmYhXGdR6LTJmAt','did:bid:efFasH3xkvS3fGsn72SqxZkrmreiuNzy'"
+'did:bid:efHqeHDdu6CxteYXxsPtFKdPbqTJd85i','did:bid:efDr1MFqET4kP2CnNJmYhXGdR6LTJmAt','did:bid:efFasH3xkvS3fGsn72SqxZkrmreiuNzy'
 ```
 **without abi**
 ```
@@ -89,7 +89,7 @@
 ### safeTransferFrom (with data)
 **with abi**
 ```
-"'did:bid:efHqeHDdu6CxteYXxsPtFKdPbqTJd85i','did:bid:ef296hUUmhM8fgH9Gg7dyY3MH7P1tkpJU','did:bid:efFasH3xkvS3fGsn72SqxZkrmreiuNzw','safe transfer with data'"
+'did:bid:efHqeHDdu6CxteYXxsPtFKdPbqTJd85i','did:bid:ef296hUUmhM8fgH9Gg7dyY3MH7P1tkpJU','did:bid:efFasH3xkvS3fGsn72SqxZkrmreiuNzw','safe transfer with data'
 ```
 **without abi**
 ```
@@ -99,7 +99,7 @@
 ### safeTransferFrom
 **with abi**
 ```
-"'did:bid:efHqeHDdu6CxteYXxsPtFKdPbqTJd85i','did:bid:ef296hUUmhM8fgH9Gg7dyY3MH7P1tkpJU','did:bid:efFasH3xkvS3fGsn72SqxZkrmreiuNzk'"
+'did:bid:efHqeHDdu6CxteYXxsPtFKdPbqTJd85i','did:bid:ef296hUUmhM8fgH9Gg7dyY3MH7P1tkpJU','did:bid:efFasH3xkvS3fGsn72SqxZkrmreiuNzk'
 ```
 **without abi**
 ```
@@ -109,7 +109,7 @@
 ### approve
 **with abi**
 ```
-"'did:bid:efDr1MFqET4kP2CnNJmYhXGdR6LTJmAt','did:bid:ef25TXpxdvBQBngVABEhd64MJHhFsg6bu'"
+'did:bid:efDr1MFqET4kP2CnNJmYhXGdR6LTJmAt','did:bid:ef25TXpxdvBQBngVABEhd64MJHhFsg6bu'
 ```
 **without abi**
 ```
@@ -119,7 +119,7 @@
 ### setApprovalForAll
 **with abi**
 ```
-"'did:bid:efHSbC7AedduvEG5hbtUio4mZmzwGhse',false"
+'did:bid:efHSbC7AedduvEG5hbtUio4mZmzwGhse',false
 ```
 **without abi**
 ```
@@ -139,7 +139,7 @@
 ### ownerOf
 **with abi**
 ```
-"'did:bid:efvGbC617rnwabdxL4JxjnqGzqU97xxx'"
+'did:bid:efvGbC617rnwabdxL4JxjnqGzqU97xxx'
 ```
 **without abi**
 ```
@@ -149,7 +149,7 @@
 ### balanceOf
 **with abi**
 ```
-"'did:bid:ef21SesYy12yP9Pq24KQun3Xkk684gDuk'"
+'did:bid:ef21SesYy12yP9Pq24KQun3Xkk684gDuk'
 ```
 **without abi**
 ```
@@ -159,7 +159,7 @@
 ### getApproved
 **with abi**
 ```
-"did:bid:efvGbC617rnwabdxL4JxjnqGzqU97hhm"
+did:bid:efvGbC617rnwabdxL4JxjnqGzqU97hhm
 ```
 **without abi**
 ```
@@ -169,7 +169,7 @@
 ### isApprovedForAll
 **with abi**
 ```
-"'did:bid:efHSbC7AedduvEG5hbtUio4mZmzwGhse','did:bid:efYoXTEiQrKTUdoLiLsBDGneGtFMJRqM'"
+'did:bid:efHSbC7AedduvEG5hbtUio4mZmzwGhse','did:bid:efYoXTEiQrKTUdoLiLsBDGneGtFMJRqM'
 ```
 **without abi**
 ```
@@ -189,7 +189,7 @@
 ### tokenURI
 **with abi**
 ```
-"'did:bid:efvGbC617rnwabdxL4JxjnqGzqU97hhm'"
+'did:bid:efvGbC617rnwabdxL4JxjnqGzqU97hhm'
 ```
 **without abi**
 ```
@@ -209,7 +209,7 @@
 ### tokenByIndex
 **with abi**
 ```
-"0"
+0
 ```
 **without abi**
 ```
@@ -219,7 +219,7 @@
 ### tokenOfOwnerByIndex
 **with abi**
 ```
-"'did:bid:efDr1MFqET4kP2CnNJmYhXGdR6LTJmAt',0"
+'did:bid:efDr1MFqET4kP2CnNJmYhXGdR6LTJmAt',0
 ```
 **without abi**
 ```
