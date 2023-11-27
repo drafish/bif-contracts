@@ -39,7 +39,7 @@
 
 **without abi**
 ```
-"{'method': 'store', params: {'num': 1}}"
+"{'method': 'store', 'params': {'num': 1}}"
 ```
 
 ### store1
@@ -50,7 +50,7 @@
 
 **without abi**
 ```
-"{'method': 'store1', params: {'num': 2}}"
+"{'method': 'store1', 'params': {'num': 2}}"
 ```
 
 ### retrieve
@@ -60,5 +60,5 @@
 ```
 **without abi**
 ```
-"{'method': 'retrieve', params: {'num': 5}}"
+"{'method': 'retrieve', 'params': {'num': 5}}"
 ```
